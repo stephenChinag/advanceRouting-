@@ -4,6 +4,7 @@ import AllQoutes from "./pages/AllQoutes";
 import QouteDetails from "./pages/QouteDetails";
 import NewQoutes from "./pages/NewQoutes";
 import Layout from "./components/layout/Layout";
+import NotFound from "./pages/NotFound";
 
 function App() {
 	return (
@@ -20,6 +21,9 @@ function App() {
 				</Route>
 				<Route path="/new-qoute">
 					<NewQoutes />
+				</Route>
+				<Route path="*">
+					<NotFound />
 				</Route>
 			</Switch>
 		</Layout>

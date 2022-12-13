@@ -4,10 +4,10 @@ import classes from "./Comments.module.css";
 import NewCommentForm from "./NewCommentForm";
 
 const Comments = () => {
-	const [isAddingComment, setIsAddingComment] = useState(true);
+	const [isAddingComment, setIsAddingComment] = useState(false);
 
 	const startAddCommentHandler = () => {
-		setIsAddingComment(false);
+		setIsAddingComment(true);
 	};
 
 	return (

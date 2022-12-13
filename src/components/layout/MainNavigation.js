@@ -13,8 +13,7 @@ const MainNavigation = () => {
 					</li>
 					<li>
 						<NavLink to="/new-qoute" activeClassName={styles.active}>
-							{" "}
-							NewQoutes{" "}
+							Add a Qoute
 						</NavLink>
 					</li>
 				</ul>
